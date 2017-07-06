@@ -1,7 +1,7 @@
 const MAPS_API = 'https://maps.googleapis.com/maps/api/place/textsearch/json?type=cities&key=AIzaSyBNMq75Gp3PZMrntv-Mk30E9Z8Aq4X-DNI';
 var app = {
   init : function() {
-    $('#location_input').on('keypress', app._findCities);
+    //$('#location_input').on('keypress', app._findCities);
   },
   _findCities: function(e) {
       var query = e.target.value;

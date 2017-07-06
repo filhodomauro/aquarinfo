@@ -188,7 +188,7 @@ SECTIONS
 ************************************/
 
 .section {
-    padding: 7rem 0;
+    padding-bottom: 7rem;
     display: block;
     position: relative;
     background-color: #ffffff;
@@ -251,7 +251,7 @@ SECTIONS
 }
 
 .welcome {
-    padding: 14rem 0;
+    padding-bottom: 14rem;
     width: 100%;
     display: block;
     position: relative;
@@ -1957,7 +1957,7 @@ body.home_alt .form-group .form-control {
     color:#989898;
 }
 
-body.home_alt .welcome .checkbox .checkbox-material .check, 
+body.home_alt .welcome .checkbox .checkbox-material .check,
 body.home_alt .welcome label.checkbox-inline .checkbox-material .check {
     border-color:#ffffff;
     border-radius: 100px;
@@ -1988,7 +1988,7 @@ body.home_alt .custom-module .panel-body {
     padding:40px;
 }
 
-body.home_alt .blog-list .topic-desc h4 a, 
+body.home_alt .blog-list .topic-desc h4 a,
 body.home_alt .blog-list .topic-desc h4 {
     margin:10px 0;
 }
