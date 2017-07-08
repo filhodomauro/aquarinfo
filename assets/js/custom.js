@@ -29,8 +29,5 @@
                 $this.find('i').removeClass('fa-angle-down').addClass('fa-angle-up');
             }
         });
-        $(document).ready(function() {
-          app.init();
-        });
 
     })(jQuery);
