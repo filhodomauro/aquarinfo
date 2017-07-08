@@ -268,7 +268,7 @@ SECTIONS
 
 .welcome-text {
     display: block;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 
 .welcome h1 {
@@ -972,6 +972,7 @@ WIDGETS
     position: relative;
     display: block;
     margin-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 .banner-widget img {
@@ -1626,7 +1627,7 @@ FOOTER
 .stickyfooter {
     background-color: #ffffff;
     border-top: 1px solid #eaecef;
-    padding: 45px 0;
+    /* padding: 45px 0; */
 }
 
 #sitefooter {
