@@ -268,7 +268,7 @@ SECTIONS
 
 .welcome-text {
     display: block;
-    padding-bottom: 30px;
+    padding-bottom: 120px;
 }
 
 .welcome h1 {
